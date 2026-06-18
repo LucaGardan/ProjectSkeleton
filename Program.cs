@@ -1192,8 +1192,8 @@
                 DrawOverlay(sdl,r);
                 DrawTextureFit(sdl,r,victoryTexture,1536,1024,80);
 
-                DrawNumberCentered(sdl,r,kills,775,345,2);
-                DrawNumberCentered(sdl,r,(int)survivedTime,775,440,2);
+                DrawNumberCentered(sdl,r,kills,775,330,2);
+                DrawNumberCentered(sdl,r,(int)survivedTime,775,425,2);
             }
             else if(screen==ScreenState.GameOver)
             {
